@@ -89,16 +89,16 @@ Here, you can add code to initialize the client library and instantiate a *Contr
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | environment | `Environment` | The API environment. <br> **Default: `Environment.SANDBOX`** |
-| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
-| loggingConfig | [`Consumer<ApiLoggingConfiguration.Builder>`](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-logging-configuration-builder.md) | Set up Logging Configuration instance. |
-| clientCredentialsAuth | [`ClientCredentialsAuth`](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/auth/oauth-2-client-credentials-grant.md) | The Credentials Setter for OAuth 2 Client Credentials Grant |
+| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| loggingConfig | [`Consumer<ApiLoggingConfiguration.Builder>`](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-logging-configuration-builder.md) | Set up Logging Configuration instance. |
+| clientCredentialsAuth | [`ClientCredentialsAuth`](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/auth/oauth-2-client-credentials-grant.md) | The Credentials Setter for OAuth 2 Client Credentials Grant |
 
 The API client can be initialized as follows:
 
@@ -134,39 +134,39 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/auth/oauth-2-client-credentials-grant.md)
+* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/auth/oauth-2-client-credentials-grant.md)
 
 ## List of APIs
 
-* [Orders](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/controllers/orders.md)
-* [Payments](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/controllers/payments.md)
-* [Vault](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/controllers/vault.md)
+* [Orders](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/controllers/orders.md)
+* [Payments](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/controllers/payments.md)
+* [Vault](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/controllers/vault.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [ApiLoggingConfiguration](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-logging-configuration.md)
-* [ApiLoggingConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-logging-configuration-builder.md)
-* [ApiRequestLoggingConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-request-logging-configuration-builder.md)
-* [ApiResponseLoggingConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-response-logging-configuration-builder.md)
-* [Configuration Interface](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-client-configuration-builder.md)
+* [ApiLoggingConfiguration](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-logging-configuration.md)
+* [ApiLoggingConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-logging-configuration-builder.md)
+* [ApiRequestLoggingConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-request-logging-configuration-builder.md)
+* [ApiResponseLoggingConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-response-logging-configuration-builder.md)
+* [Configuration Interface](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-client-configuration-builder.md)
 
 ### HTTP
 
-* [Headers](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/headers.md)
-* [HttpCallback Interface](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-callback-interface.md)
-* [HttpContext](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-body-request.md)
-* [HttpRequest](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-request.md)
-* [HttpResponse](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/http-string-response.md)
+* [Headers](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/headers.md)
+* [HttpCallback Interface](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-callback-interface.md)
+* [HttpContext](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-body-request.md)
+* [HttpRequest](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-request.md)
+* [HttpResponse](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/http-string-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-exception.md)
-* [ApiHelper](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/api-helper.md)
-* [FileWrapper](https://www.github.com/tahaali2000/test-java-sdk/tree/1.2.6/doc/file-wrapper.md)
+* [ApiException](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-exception.md)
+* [ApiHelper](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/api-helper.md)
+* [FileWrapper](https://www.github.com/tahaali2000/test-java-sdk/tree/9.5.6/doc/file-wrapper.md)
 
